@@ -32,7 +32,7 @@ CUDA_VISIBLE_DEVICES=5 accelerate launch run_dual_marking.py \
 --data_name sst2 \
 --project_name espew \
 --use_copy_target True \
---project_name ESpeW \
+--project_name dual-marker \
 --CSE_attack True \
 --SVD_TOP_K 50 \
 --mask_rate 0.20
