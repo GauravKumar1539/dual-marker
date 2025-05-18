@@ -1,0 +1,24 @@
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_setup.py:_flush():70] Current SDK version is 0.19.11
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_setup.py:_flush():70] Configure stats pid to 6803
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_setup.py:_flush():70] Loading settings from /Users/gauravkadian/.config/wandb/settings
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_setup.py:_flush():70] Loading settings from /Users/gauravkadian/Desktop/ESpeW/src/wandb/settings
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_setup.py:_flush():70] Loading settings from environment variables
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/gauravkadian/Desktop/ESpeW/src/wandb/offline-run-20250510_144240-zvex3kbu/logs/debug.log
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/gauravkadian/Desktop/ESpeW/src/wandb/offline-run-20250510_144240-zvex3kbu/logs/debug-internal.log
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_init.py:init():852] calling init triggers
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_init.py:init():893] starting backend
+2025-05-10 14:42:40,715 INFO    MainThread:6803 [wandb_init.py:init():897] sending inform_init request
+2025-05-10 14:42:40,768 INFO    MainThread:6803 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-10 14:42:40,768 INFO    MainThread:6803 [wandb_init.py:init():907] backend started and connected
+2025-05-10 14:42:40,777 INFO    MainThread:6803 [wandb_init.py:init():1005] updated telemetry
+2025-05-10 14:42:40,803 INFO    MainThread:6803 [wandb_init.py:init():1029] communicating run to backend with 90.0 second timeout
+2025-05-10 14:42:41,317 INFO    MainThread:6803 [wandb_init.py:init():1104] starting run threads in backend
+2025-05-10 14:42:41,437 INFO    MainThread:6803 [wandb_run.py:_console_start():2573] atexit reg
+2025-05-10 14:42:41,437 INFO    MainThread:6803 [wandb_run.py:_redirect():2421] redirect: wrap_raw
+2025-05-10 14:42:41,437 INFO    MainThread:6803 [wandb_run.py:_redirect():2490] Wrapping output streams.
+2025-05-10 14:42:41,437 INFO    MainThread:6803 [wandb_run.py:_redirect():2513] Redirects installed.
+2025-05-10 14:42:41,440 INFO    MainThread:6803 [wandb_init.py:init():1150] run started, returning control to user process
+2025-05-10 14:42:41,441 INFO    MainThread:6803 [wandb_run.py:_config_callback():1436] config_cb None None {'job_name': 'sst2', 'gpt_emb_dim': 1536, 'gpt_emb_train_file': '../data/emb_sst2_train', 'gpt_emb_validation_file': '../data/emb_sst2_validation', 'gpt_emb_test_file': '../data/emb_sst2_validation', 'train_file': None, 'validation_file': None, 'test_file': None, 'max_length': 128, 'pad_to_max_length': False, 'model_name_or_path': 'bert-base-cased', 'use_slow_tokenizer': False, 'per_device_train_batch_size': 32, 'per_device_eval_batch_size': 8, 'weight_decay': 0.0, 'lr_scheduler_type': 'linear', 'output_dir': '../output', 'seed': 0, 'checkpointing_steps': None, 'resume_from_checkpoint': None, 'with_tracking': True, 'report_to': 'wandb', 'ignore_mismatched_sizes': False, 'trigger_seed': 2022, 'trigger_min_max_freq': [0.005, 0.01], 'selected_trigger_num': 20, 'max_trigger_num': 4, 'word_count_file': '../data/word_countall.json', 'disable_pca_evaluate': False, 'disable_training': False, 'verify_dataset_size': 20, 'transform_hidden_size': 1536, 'transform_dropout_rate': 0.0, 'copy_learning_rate': 5e-05, 'copy_num_train_epochs': 10, 'copy_max_train_steps': None, 'copy_gradient_accumulation_steps': 1, 'copy_num_warmup_steps': 0, 'cls_hidden_dim': 256, 'cls_dropout_rate': 0.2, 'cls_learning_rate': 0.01, 'cls_num_train_epochs': 3, 'cls_max_train_steps': None, 'cls_gradient_accumulation_steps': 1, 'cls_num_warmup_steps': 0, 'data_name': 'sst2', 'project_name': 'ESpeW', 'use_copy_target': True, 'plot_sample_num': 600, 'vis_method': 'pca', 'CSE_attack': True, 'CLUSTER_ALGO': 'kmeans', 'CLUSTER_NUM': 20, 'SVD_TOP_K': 50, 'num_backdoored_samples': 4527}
+2025-05-10 14:47:56,254 INFO    MsgRouterThr:6803 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 0 handles.

@@ -1,0 +1,15 @@
+{"time":"2025-05-10T14:42:40.799487+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.11","symlink path":"/Users/gauravkadian/Desktop/ESpeW/src/wandb/offline-run-20250510_144240-zvex3kbu/logs/debug-core.log"}
+{"time":"2025-05-10T14:42:41.314233+05:30","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-05-10T14:42:41.314545+05:30","level":"INFO","msg":"created new stream","id":"zvex3kbu"}
+{"time":"2025-05-10T14:42:41.31461+05:30","level":"INFO","msg":"stream: started","id":"zvex3kbu"}
+{"time":"2025-05-10T14:42:41.314669+05:30","level":"INFO","msg":"handler: started","stream_id":"zvex3kbu"}
+{"time":"2025-05-10T14:42:41.314754+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zvex3kbu"}
+{"time":"2025-05-10T14:42:41.314751+05:30","level":"INFO","msg":"sender: started","stream_id":"zvex3kbu"}
+{"time":"2025-05-10T14:42:41.319437+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-10T14:47:56.282004+05:30","level":"INFO","msg":"stream: closing","id":"zvex3kbu"}
+{"time":"2025-05-10T14:47:56.28423+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-10T14:47:56.285816+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-10T14:47:56.288725+05:30","level":"INFO","msg":"handler: closed","stream_id":"zvex3kbu"}
+{"time":"2025-05-10T14:47:56.28872+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zvex3kbu"}
+{"time":"2025-05-10T14:47:56.289043+05:30","level":"INFO","msg":"sender: closed","stream_id":"zvex3kbu"}
+{"time":"2025-05-10T14:47:56.29219+05:30","level":"INFO","msg":"stream: closed","id":"zvex3kbu"}

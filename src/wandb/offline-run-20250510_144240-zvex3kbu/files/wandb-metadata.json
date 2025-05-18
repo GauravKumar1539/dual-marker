@@ -1,0 +1,101 @@
+{
+  "os": "macOS-15.0.1-arm64-arm-64bit",
+  "python": "CPython 3.10.15",
+  "startedAt": "2025-05-10T09:12:40.769101Z",
+  "args": [
+    "--seed",
+    "0",
+    "--model_name_or_path",
+    "bert-base-cased",
+    "--per_device_train_batch_size",
+    "32",
+    "--max_length",
+    "128",
+    "--selected_trigger_num",
+    "20",
+    "--max_trigger_num",
+    "4",
+    "--trigger_min_max_freq",
+    "0.005",
+    "0.01",
+    "--output_dir",
+    "../output",
+    "--gpt_emb_train_file",
+    "../data/emb_sst2_train",
+    "--gpt_emb_validation_file",
+    "../data/emb_sst2_validation",
+    "--gpt_emb_test_file",
+    "../data/emb_sst2_validation",
+    "--cls_learning_rate",
+    "1e-2",
+    "--cls_num_train_epochs",
+    "3",
+    "--cls_hidden_dim",
+    "256",
+    "--cls_dropout_rate",
+    "0.2",
+    "--copy_learning_rate",
+    "5e-5",
+    "--copy_num_train_epochs",
+    "10",
+    "--transform_hidden_size",
+    "1536",
+    "--transform_dropout_rate",
+    "0.0",
+    "--with_tracking",
+    "--report_to",
+    "wandb",
+    "--job_name",
+    "sst2",
+    "--word_count_file",
+    "../data/word_countall.json",
+    "--data_name",
+    "sst2",
+    "--use_copy_target",
+    "True",
+    "--project_name",
+    "ESpeW",
+    "--CSE_attack",
+    "True",
+    "--SVD_TOP_K",
+    "50"
+  ],
+  "program": "/Users/gauravkadian/Desktop/ESpeW/src/run_gpt_backdoor_EmbMarker.py",
+  "codePath": "src/run_gpt_backdoor_EmbMarker.py",
+  "git": {
+    "remote": "https://github.com/liudan193/ESpeW.git",
+    "commit": "7b5f19e8e2fceed25e0eea440dfce0f56ceb416b"
+  },
+  "root": "/Users/gauravkadian/Desktop/ESpeW/src",
+  "host": "Gauravs-MacBook.local",
+  "executable": "/Users/gauravkadian/Desktop/ESpeW/myenv/bin/python",
+  "codePathLocal": "run_gpt_backdoor_EmbMarker.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "149428195328"
+    },
+    "/System/Volumes/Data": {
+      "total": "245107195904",
+      "used": "149428195328"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 8
+  },
+  "apple": {
+    "name": "Apple M1",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 7,
+    "memoryGb": 8,
+    "swapTotalBytes": "3221225472",
+    "ramTotalBytes": "8589934592"
+  }
+}
